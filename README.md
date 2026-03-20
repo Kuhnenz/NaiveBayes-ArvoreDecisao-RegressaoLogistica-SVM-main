@@ -1,92 +1,119 @@
-📊 Trabalho 3 — Algoritmos de Machine Learning
+# 📊 Trabalho 3 — Algoritmos de Machine Learning
 
 Este repositório contém a implementação e análise de diferentes algoritmos de Machine Learning, desenvolvidos como parte de um trabalho acadêmico.
 
-📁 Estrutura do Projeto
+O objetivo foi aplicar, na prática, conceitos importantes da área, além de comparar o desempenho entre diferentes modelos.
 
-O projeto está dividido em três partes principais:
+---
+
+## 📁 Estrutura do Projeto
+
 
 📦 trabalho-ml
- ┣ 📜 TRABALHO_3_PARTE_1_Algoritmo_Naïve_Bayes.ipynb
- ┣ 📜 TRABALHO_3_PARTE_2_Algoritmo_Árvores_de_Decisão.ipynb
- ┣ 📜 TRABALHO_3_RegressãoLogística_SVM.ipynb
- ┗ 📜 README.md
-🧠 Algoritmos Utilizados
-🔹 Parte 1 — Naïve Bayes
+├── TRABALHO_3_PARTE_1_Algoritmo_Naïve_Bayes.ipynb
+├── TRABALHO_3_PARTE_2_Algoritmo_Árvores_de_Decisão.ipynb
+├── TRABALHO_3_RegressãoLogística_SVM.ipynb
+└── README.md
 
-Implementação do algoritmo Naïve Bayes
 
-Aplicação em conjunto de dados
+---
 
-Avaliação de desempenho
+## 🧠 Algoritmos Utilizados
 
-🌳 Parte 2 — Árvores de Decisão
+### 🔹 Parte 1 — Naïve Bayes
 
-Construção de modelos com Decision Trees
+- Implementação do algoritmo Naïve Bayes  
+- Aplicação em conjunto de dados  
+- Avaliação de desempenho do modelo  
 
-Visualização da árvore (quando aplicável)
+---
 
-Análise de overfitting e underfitting
+### 🌳 Parte 2 — Árvores de Decisão
 
-📈 Parte 3 — Regressão Logística e SVM
+- Construção de modelos utilizando Decision Trees  
+- Visualização da árvore (quando aplicável)  
+- Análise de overfitting e underfitting  
 
-Regressão Logística
+---
 
-SVM (Support Vector Machine)
+### 📈 Parte 3 — Regressão Logística e SVM
 
-Comparação de desempenho entre modelos
+- Implementação de Regressão Logística  
+- Implementação de SVM (Support Vector Machine)  
+- Comparação de desempenho entre os modelos  
 
-⚙️ Tecnologias Utilizadas
+---
 
-Python 🐍
+## ⚙️ Tecnologias Utilizadas
 
-Jupyter Notebook 📓
+- Python 🐍  
+- Jupyter Notebook 📓  
 
-Bibliotecas:
+### Bibliotecas:
 
-pandas
+- pandas  
+- numpy  
+- scikit-learn  
+- matplotlib  
+- seaborn  
 
-numpy
+---
 
-scikit-learn
+## ▶️ Como Executar
 
-matplotlib / seaborn
+1. Clone o repositório:
 
-▶️ Como Executar
-
-Clone o repositório:
 
 git clone https://github.com/seu-usuario/seu-repositorio.git
 
-Acesse a pasta:
+
+2. Acesse a pasta do projeto:
+
 
 cd seu-repositorio
 
-Instale as dependências:
+
+3. Instale as dependências:
+
 
 pip install -r requirements.txt
 
-(ou instale manualmente as bibliotecas citadas acima)
 
-Execute os notebooks:
+> Caso não exista o arquivo `requirements.txt`, instale manualmente as bibliotecas listadas acima.
+
+4. Execute os notebooks:
+
 
 jupyter notebook
-📊 Objetivo
 
-O objetivo deste trabalho é:
 
-Compreender o funcionamento de diferentes algoritmos de Machine Learning
+---
 
-Comparar seus desempenhos
+## 🎯 Objetivo
 
-Analisar resultados obtidos em diferentes cenários
+O trabalho teve como principais objetivos:
 
-📌 Resultados
+- Compreender o funcionamento de diferentes algoritmos de Machine Learning  
+- Aplicar esses algoritmos em bases de dados reais ou simuladas  
+- Comparar o desempenho entre os modelos  
+- Analisar os resultados obtidos  
 
-Os resultados incluem:
+---
 
-Métricas de avaliação (acurácia, precisão, recall, etc.)
+## 📊 Resultados
 
-Comparação entre modelos
+Os resultados obtidos incluem:
 
-Observações sobre desempenho e comportamento dos algoritmos
+- Métricas de avaliação (acurácia, precisão, recall, etc.)  
+- Comparação entre os modelos utilizados  
+- Observações sobre desempenho e comportamento dos algoritmos  
+
+---
+
+## 📚 Conclusão
+
+Com este trabalho, foi possível entender melhor como diferentes algoritmos de Machine Learning se comportam em cenários distintos.
+
+Também ficou evidente que a escolha do modelo adequado depende do tipo de problema e dos dados utilizados, sendo importante sempre validar os resultados antes de tirar conclusões.
+
+---
